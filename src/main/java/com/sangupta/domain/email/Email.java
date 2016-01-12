@@ -101,7 +101,11 @@ public class Email {
 	}
 	
 	/**
+	 * Add an {@link EmailAddress} in the reply to field.
+	 * 
 	 * @param emailAddress
+	 *            the email address to be added
+	 * 
 	 */
 	public void addReplyTo(EmailAddress emailAddress) {
 		if(this.replyTo == null) {

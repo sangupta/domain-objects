@@ -146,12 +146,19 @@ public class EmailAddress {
 	}
 
 	/**
-	 * Parse a string that contains multiple email addresses and return a {@link Set}
-	 * of {@link EmailAddress} objects that can then be set to various properties
-	 * of {@link Email} object.
+	 * Parse a string that contains multiple email addresses and return a
+	 * {@link Set} of {@link EmailAddress} objects that can then be set to
+	 * various properties of {@link Email} object.
 	 * 
 	 * @param email
-	 * @return
+	 *            the {@link String} representation containing multiple
+	 *            addresses
+	 * 
+	 * @return a unique {@link Set} of {@link EmailAddress} objects thus parsed
+	 * 
+	 * @throws IllegalArgumentException
+	 *             if the presented email text is <code>null</code> or
+	 *             <code>empty</code>
 	 */
 	public static Set<EmailAddress> parseMultiple(String email) {
 		if(email == null || email.isEmpty()) {
