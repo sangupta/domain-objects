@@ -37,7 +37,8 @@ public interface Timeline {
 	/**
 	 * A chronologically descending list of {@link TimelineEntity}
 	 * 
-	 * @return
+	 * @return a {@link Collection} of {@link TimelineEntity} objects that
+	 *         represent the timeline
 	 */
 	public Collection<TimelineEntity> getTimelineData();
 
@@ -45,7 +46,7 @@ public interface Timeline {
 	 * Get the metadata for fetching the next page of events from the timeline.
 	 * Should return a <code>null</code> if there is no next page.
 	 * 
-	 * @return
+	 * @return the metadata for next page
 	 */
 	public String getNextPage();
 
@@ -53,7 +54,7 @@ public interface Timeline {
 	 * Get the metadata for fetching the previous page of events from the timeline.
 	 * Should return a <code>null</code> if there is no previous page.
 	 * 
-	 * @return
+	 * @return the metadata for previous page
 	 */
 	public String getPreviousPage();
 	
@@ -61,7 +62,7 @@ public interface Timeline {
 	 * Get the page number for this page of information. The page number should be
 	 * 0-based. That is the most recent page should always return a <code>ZERO</code>.
 	 * 
-	 * @return
+	 * @return the page number
 	 */
 	public int getPageNumber();
 	

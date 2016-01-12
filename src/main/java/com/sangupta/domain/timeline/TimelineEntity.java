@@ -33,21 +33,21 @@ public interface TimelineEntity {
 	/**
 	 * The unique ID of this entity
 	 * 
-	 * @return
+	 * @return the unique ID for this entity
 	 */
 	public String getUniqueID();
 
 	/**
 	 * The user ID of the owner who owns this entity.
 	 * 
-	 * @return
+	 * @return the unique user ID
 	 */
 	public String getUserID();
 
 	/**
 	 * The time at which this event was created.
 	 * 
-	 * @return
+	 * @return the epoch millis when this event was created
 	 */
 	public long getCreated();
 
