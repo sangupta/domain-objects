@@ -47,7 +47,7 @@ public class WebImage {
 	/**
 	 * Convenience constructor
 	 * 
-	 * @param url
+	 * @param url the URL to set for the image
 	 */
 	public WebImage(String url) {
 		this.url = url;
