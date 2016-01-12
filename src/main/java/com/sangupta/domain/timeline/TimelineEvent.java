@@ -28,7 +28,7 @@ package com.sangupta.domain.timeline;
  * @author sangupta
  *
  */
-public interface TimelineEntity {
+public interface TimelineEvent {
 	
 	/**
 	 * The unique ID of this entity

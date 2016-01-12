@@ -35,12 +35,12 @@ import java.util.Collection;
 public interface Timeline {
 
 	/**
-	 * A chronologically descending list of {@link TimelineEntity}
+	 * A chronologically descending list of {@link TimelineEvent}
 	 * 
-	 * @return a {@link Collection} of {@link TimelineEntity} objects that
+	 * @return a {@link Collection} of {@link TimelineEvent} objects that
 	 *         represent the timeline
 	 */
-	public Collection<TimelineEntity> getTimelineData();
+	public Collection<TimelineEvent> getTimelineEvents();
 
 	/**
 	 * Get the metadata for fetching the next page of events from the timeline.
