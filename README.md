@@ -15,7 +15,7 @@ interceptors for say updating the timestamp whenever an object is persisted into
 store.
 
 _History:_ Ages ago, the project forked from the `https://github.com/sangupta/jerry` project, when all utility classes were extracted
-out into the `jerry-core` project.
+out into the `domain-objects` project.
 
 The library is tested on the following JDK versions:
 
