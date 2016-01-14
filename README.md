@@ -2,7 +2,7 @@ domain-objects
 ==============
 
 [![Build Status](https://travis-ci.org/sangupta/domain-objects.svg?branch=master)](https://travis-ci.org/sangupta/domain-objects)
-[![Coverage Status](https://coveralls.io/repos/sangupta/domain-objects/badge.png)](https://coveralls.io/r/sangupta/domain-objects)
+[![Coverage Status](https://coveralls.io/repos/sangupta/domain-objects/badge.svg?branch=master&service=github)](https://coveralls.io/github/sangupta/domain-objects?branch=master)
 [![Maven Version](https://maven-badges.herokuapp.com/maven-central/com.sangupta/domain-objects/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.sangupta/domain-objects)
 
 
@@ -23,7 +23,8 @@ The library is tested on the following JDK versions:
 * Oracle JDK 7
 * Open JDK 7
 
-**Change Log**
+Change Log
+----------
 
 Downloads
 ---------
@@ -54,8 +55,8 @@ Then add the dependency as,
 ```xml
 <dependency>
     <groupId>com.github.sangupta</groupId>
-    <artifactId>jerry-core</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <artifactId>domain-objects</artifactId>
+    <version>CURRENT-SNAPSHOT-VERSION</version>
 </dependency>
 ```
 
